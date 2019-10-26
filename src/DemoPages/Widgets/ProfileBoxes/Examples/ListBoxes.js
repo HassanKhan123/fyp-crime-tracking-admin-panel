@@ -215,18 +215,18 @@ class ListBoxes extends Component {
                                             </TabPane>
                                             <TabPane tabId="2">
                                                 <ListGroup flush>
-                                                    <ListGroupItem disabled tag="a" href="#">Cras
+                                                    <ListGroupItem disabled tag="a" href="/#">Cras
                                                         justo
                                                         odio</ListGroupItem>
-                                                    <ListGroupItem tag="a" href="#">Dapibus ac
+                                                    <ListGroupItem tag="a" href="/#">Dapibus ac
                                                         facilisis
                                                         in</ListGroupItem>
-                                                    <ListGroupItem tag="a" href="#">Morbi leo
+                                                    <ListGroupItem tag="a" href="/#">Morbi leo
                                                         risus</ListGroupItem>
-                                                    <ListGroupItem tag="a" href="#">Porta ac
+                                                    <ListGroupItem tag="a" href="/#">Porta ac
                                                         consectetur
                                                         ac</ListGroupItem>
-                                                    <ListGroupItem tag="a" href="#">Vestibulum at
+                                                    <ListGroupItem tag="a" href="/#">Vestibulum at
                                                         eros</ListGroupItem>
                                                 </ListGroup>
                                             </TabPane>
@@ -1129,7 +1129,7 @@ class ListBoxes extends Component {
                                         <div className="dropdown-menu-header-inner bg-warning">
                                             <div className="menu-header-content">
                                                 <div>
-                                                    <a href="#"
+                                                    <a href="/#"
                                                        className="avatar-icon-wrapper btn-hover-shine avatar-icon-xl">
                                                         <div className="avatar-icon rounded">
                                                             <img src={avatar4} alt="Avatar 5"/>

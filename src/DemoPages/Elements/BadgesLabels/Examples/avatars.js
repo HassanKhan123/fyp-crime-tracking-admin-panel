@@ -178,59 +178,59 @@ class AvatarsExamples extends Component {
                                     <CardBody>
                                         <CardTitle>Link Avatars</CardTitle>
                                         <div>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-xl">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar1} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-lg">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar2} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#" className="avatar-icon-wrapper">
+                                            <a href="/#" className="avatar-icon-wrapper">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar3} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-sm">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar4} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-xs">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar5} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-xl">
                                                 <div className="avatar-icon">
                                                     <img src={avatar1} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-lg">
                                                 <div className="avatar-icon">
                                                     <img src={avatar2} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#" className="avatar-icon-wrapper">
+                                            <a href="/#" className="avatar-icon-wrapper">
                                                 <div className="avatar-icon">
                                                     <img src={avatar3} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-sm">
                                                 <div className="avatar-icon">
                                                     <img src={avatar4} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper avatar-icon-xs">
                                                 <div className="avatar-icon">
                                                     <img src={avatar5} alt=""/>
@@ -240,61 +240,61 @@ class AvatarsExamples extends Component {
                                         <div className="divider"/>
                                         <b>Hover Shine</b>
                                         <div>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-xl">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar1} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-lg">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar2} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar3} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-sm">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar4} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-xs">
                                                 <div className="avatar-icon rounded">
                                                     <img src={avatar5} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-xl">
                                                 <div className="avatar-icon">
                                                     <img src={avatar1} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-lg">
                                                 <div className="avatar-icon">
                                                     <img src={avatar2} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine">
                                                 <div className="avatar-icon">
                                                     <img src={avatar3} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-sm">
                                                 <div className="avatar-icon">
                                                     <img src={avatar4} alt=""/>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="/#"
                                                className="avatar-icon-wrapper btn-hover-shine avatar-icon-xs">
                                                 <div className="avatar-icon">
                                                     <img src={avatar5} alt=""/>

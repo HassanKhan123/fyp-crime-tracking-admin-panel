@@ -49,15 +49,15 @@ const RegisterBoxed = ({match}) => (
                                 </Row>
                                 <FormGroup className="mt-3" check>
                                     <Input type="checkbox" name="check" id="exampleCheck"/>
-                                    <Label for="exampleCheck" check>Accept our <a href="#">Terms and
+                                    <Label for="exampleCheck" check>Accept our <a href="/#">Terms and
                                         Conditions</a>.</Label>
                                 </FormGroup>
                                 <Row className="divider"/>
                                 <h6 className="mb-0">
                                     Already have an account?{' '}
-                                    <a href="#" className="text-primary">Sign in</a>
+                                    <a href="/#" className="text-primary">Sign in</a>
                                     {' '} | {' '}
-                                    <a href="#" className="text-primary">Recover
+                                    <a href="/#" className="text-primary">Recover
                                         Password</a>
                                 </h6>
                             </div>

@@ -36,7 +36,7 @@ const ForgotPasswordBoxed = ({match}) => (
                                 </div>
                                 <div className="divider"/>
                                 <h6 className="mb-0">
-                                    <a href="#" className="text-primary">Sign in existing account</a>
+                                    <a href="/#" className="text-primary">Sign in existing account</a>
                                 </h6>
                             </div>
                             <div className="modal-footer clearfix">

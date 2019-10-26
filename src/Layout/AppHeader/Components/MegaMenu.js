@@ -43,7 +43,7 @@ class MegaMenu extends React.Component {
             <Fragment>
                 <Nav className="header-megamenu">
                     <NavItem>
-                        <NavLink href="#" onClick={this.toggle} id="PopoverMegaMenu">
+                        <NavLink href="/#" onClick={this.toggle} id="PopoverMegaMenu">
                             <i className="nav-link-icon pe-7s-gift"> </i>
                             Mega Menu
                             <FontAwesomeIcon className="ml-2 opacity-5" icon={faAngleDown}/>
@@ -60,26 +60,26 @@ class MegaMenu extends React.Component {
                                                 Overview
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     <i className="nav-link-icon lnr-inbox"> </i>
                                                     <span>Contacts</span>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     <i className="nav-link-icon lnr-book"> </i>
                                                     <span>Incidents</span>
                                                     <div className="ml-auto badge badge-pill badge-danger">5</div>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     <i className="nav-link-icon lnr-picture"> </i>
                                                     <span>Companies</span>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink disabled href="#">
+                                                <NavLink disabled href="/#">
                                                     <i className="nav-link-icon lnr-file-empty"> </i>
                                                     <span>Dashboards</span>
                                                 </NavLink>
@@ -92,21 +92,21 @@ class MegaMenu extends React.Component {
                                                 Favourites
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">Reports Conversions</NavLink>
+                                                <NavLink href="/#">Reports Conversions</NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     Quick Start
                                                     <div className="ml-auto badge badge-success">New</div>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     Users &amp; Groups
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     Proprieties
                                                 </NavLink>
                                             </NavItem>
@@ -118,21 +118,21 @@ class MegaMenu extends React.Component {
                                                 Sales &amp; Marketing
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     Queues
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">Resource Groups</NavLink>
+                                                <NavLink href="/#">Resource Groups</NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     Goal Metrics
                                                     <div className="ml-auto badge badge-warning">3</div>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#">
+                                                <NavLink href="/#">
                                                     Campaigns
                                                 </NavLink>
                                             </NavItem>

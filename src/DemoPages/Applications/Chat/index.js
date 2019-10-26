@@ -113,31 +113,31 @@ export default class Chat extends Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     Chat
                                                                     <div className="ml-auto badge badge-pill badge-info">8</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">Recover Password</NavLink>
+                                                                <NavLink href="/#">Recover Password</NavLink>
                                                             </NavItem>
                                                             <NavItem className="nav-item-header">
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     Settings
                                                                     <div className="ml-auto badge badge-success">New</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     Messages
                                                                     <div className="ml-auto badge badge-warning">512</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     Logs
                                                                 </NavLink>
                                                             </NavItem>

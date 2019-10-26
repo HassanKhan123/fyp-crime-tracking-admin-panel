@@ -476,20 +476,20 @@ export default class Mailbox extends Component {
                                             My Account
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink href="#">
+                                            <NavLink href="/#">
                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                 <span>Inbox</span>
                                                 <div className="ml-auto badge badge-pill badge-info">8</div>
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink href="#">
+                                            <NavLink href="/#">
                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                 <span>Sent Items</span>
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink href="#">
+                                            <NavLink href="/#">
                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                 <span>All Messages</span>
                                                 <div className="ml-auto badge badge-success">New</div>
@@ -497,13 +497,13 @@ export default class Mailbox extends Component {
                                         </NavItem>
                                         <NavItem className="nav-item-divider"/>
                                         <NavItem>
-                                            <NavLink href="#">
+                                            <NavLink href="/#">
                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                 <span>Trash</span>
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink href="#">
+                                            <NavLink href="/#">
                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                 <span>Others</span>
                                                 <div className="ml-auto badge badge-warning">512</div>

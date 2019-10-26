@@ -11,7 +11,7 @@ import {Loader, Types} from 'react-loaders';
 import {
     Row, Col, Form, FormGroup, Input,
     TabContent, TabPane, Nav, NavItem, NavLink,
-    Card, CardText, CardBody,
+    Card, CardBody,
     CardTitle, CardHeader, CardFooter,
     Button, ButtonGroup, UncontrolledButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
@@ -441,7 +441,7 @@ class BlockLoadingExample extends Component {
                                     <CardHeader>
                                         <Nav>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -451,7 +451,7 @@ class BlockLoadingExample extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -461,7 +461,7 @@ class BlockLoadingExample extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');
@@ -519,7 +519,7 @@ class BlockLoadingExample extends Component {
                                     <CardHeader>
                                         <Nav justified>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -529,7 +529,7 @@ class BlockLoadingExample extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -539,7 +539,7 @@ class BlockLoadingExample extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');

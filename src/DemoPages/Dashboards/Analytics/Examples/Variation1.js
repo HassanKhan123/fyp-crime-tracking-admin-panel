@@ -589,7 +589,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     <h4 className="timeline-title">All Hands Meeting</h4>
                                                     <p>
                                                         Lorem ipsum dolor sic amet, today at <a
-                                                        href="#">12:00
+                                                        href="/#">12:00
                                                         PM</a>
                                                     </p>
                                                 </VerticalTimelineElement>
@@ -643,7 +643,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     <h4 className="timeline-title">All Hands Meeting</h4>
                                                     <p>
                                                         Lorem ipsum dolor sic amet, today at <a
-                                                        href="#">12:00
+                                                        href="/#">12:00
                                                         PM</a>
                                                     </p>
                                                 </VerticalTimelineElement>
@@ -697,7 +697,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     <h4 className="timeline-title">All Hands Meeting</h4>
                                                     <p>
                                                         Lorem ipsum dolor sic amet, today at <a
-                                                        href="#">12:00
+                                                        href="/#">12:00
                                                         PM</a>
                                                     </p>
                                                 </VerticalTimelineElement>

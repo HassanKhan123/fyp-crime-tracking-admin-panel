@@ -19,7 +19,7 @@ class ChatExample extends Component {
                                 >
                                     <h4 className="timeline-title">All Hands Meeting</h4>
                                     <p>
-                                        Lorem ipsum dolor sic amet, today at <a href="#">12:00 PM</a>
+                                        Lorem ipsum dolor sic amet, today at <a href="/#">12:00 PM</a>
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -60,7 +60,7 @@ class ChatExample extends Component {
                                 >
                                     <h4 className="timeline-title">All Hands Meeting</h4>
                                     <p>
-                                        Lorem ipsum dolor sic amet, today at <a href="#">12:00 PM</a>
+                                        Lorem ipsum dolor sic amet, today at <a href="/#">12:00 PM</a>
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement

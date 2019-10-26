@@ -17,11 +17,11 @@ export default class TitleComponent3 extends Component {
         return (
             <Fragment>
                 <Breadcrumb>
-                    <BreadcrumbItem><a href="#">
+                    <BreadcrumbItem><a href="/#">
                         <FontAwesomeIcon icon={faHome}/></a>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
-                        <a href="#">Dashboards</a>
+                        <a href="/#">Dashboards</a>
                     </BreadcrumbItem>
                     <BreadcrumbItem active>Minimal Dashboard Example</BreadcrumbItem>
                 </Breadcrumb>

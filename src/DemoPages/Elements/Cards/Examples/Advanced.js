@@ -362,7 +362,7 @@ class CardsAdvanced extends Component {
                                     <CardHeader>
                                         <Nav>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -372,7 +372,7 @@ class CardsAdvanced extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -382,7 +382,7 @@ class CardsAdvanced extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');
@@ -431,7 +431,7 @@ class CardsAdvanced extends Component {
                                     <CardHeader>
                                         <Nav justified>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -441,7 +441,7 @@ class CardsAdvanced extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -451,7 +451,7 @@ class CardsAdvanced extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="#"
+                                                <NavLink href="/#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');

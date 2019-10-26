@@ -599,7 +599,7 @@ export default class NavsHGrid extends React.Component {
                                                         Activity
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="#">
+                                                        <NavLink href="/#">
                                                             Chat
                                                             <div className="ml-auto badge badge-pill badge-info">8</div>
                                                         </NavLink>
@@ -608,13 +608,13 @@ export default class NavsHGrid extends React.Component {
                                                         My Account
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="#">
+                                                        <NavLink href="/#">
                                                             Settings
                                                             <div className="ml-auto badge badge-success">New</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="#">
+                                                        <NavLink href="/#">
                                                             Messages
                                                             <div className="ml-auto badge badge-warning">512</div>
                                                         </NavLink>
@@ -642,7 +642,7 @@ export default class NavsHGrid extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -653,14 +653,14 @@ export default class NavsHGrid extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
@@ -690,7 +690,7 @@ export default class NavsHGrid extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -701,14 +701,14 @@ export default class NavsHGrid extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
@@ -738,7 +738,7 @@ export default class NavsHGrid extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -746,14 +746,14 @@ export default class NavsHGrid extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
@@ -790,33 +790,33 @@ export default class NavsHGrid extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">Recover
+                                                            <NavLink href="/#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-header">
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Settings
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Messages
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Logs
                                                             </NavLink>
                                                         </NavItem>
@@ -855,7 +855,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -864,7 +864,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -873,7 +873,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -881,7 +881,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -889,7 +889,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -929,7 +929,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -938,7 +938,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -947,7 +947,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -955,7 +955,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -963,7 +963,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1003,7 +1003,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1012,7 +1012,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1021,7 +1021,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1029,7 +1029,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1037,7 +1037,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1077,7 +1077,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1086,7 +1086,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1095,7 +1095,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1103,7 +1103,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1111,7 +1111,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1151,7 +1151,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1160,7 +1160,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1169,7 +1169,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1177,7 +1177,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1185,7 +1185,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1225,7 +1225,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1234,7 +1234,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1243,7 +1243,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1251,7 +1251,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1259,7 +1259,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1299,7 +1299,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1308,7 +1308,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1317,7 +1317,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1325,7 +1325,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1333,7 +1333,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1373,7 +1373,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1382,7 +1382,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1391,7 +1391,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1399,7 +1399,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1407,7 +1407,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1447,7 +1447,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1456,7 +1456,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1465,7 +1465,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1473,7 +1473,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1481,7 +1481,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1521,7 +1521,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1530,7 +1530,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1539,7 +1539,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1547,7 +1547,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1555,7 +1555,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1603,20 +1603,20 @@ export default class NavsHGrid extends React.Component {
                                                 <Nav vertical>
                                                     <Nav vertical>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1647,13 +1647,13 @@ export default class NavsHGrid extends React.Component {
                                                     <Nav vertical>
                                                         <Nav vertical>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1661,7 +1661,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1691,7 +1691,7 @@ export default class NavsHGrid extends React.Component {
                                                 <Nav vertical>
                                                     <Nav vertical>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1700,14 +1700,14 @@ export default class NavsHGrid extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1749,33 +1749,33 @@ export default class NavsHGrid extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">Recover
+                                                            <NavLink href="/#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-header">
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Settings
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Messages
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Logs
                                                             </NavLink>
                                                         </NavItem>
@@ -1818,7 +1818,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1827,7 +1827,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1836,7 +1836,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1844,7 +1844,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1852,7 +1852,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>
@@ -1896,7 +1896,7 @@ export default class NavsHGrid extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-chat"> </i>
                                                                     <span>Chat</span>
                                                                     <div
@@ -1905,7 +1905,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                     <span>Recover Password</span>
                                                                 </NavLink>
@@ -1914,7 +1914,7 @@ export default class NavsHGrid extends React.Component {
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-config"> </i>
                                                                     <span>Settings</span>
                                                                     <div className="ml-auto badge badge-success">New
@@ -1922,7 +1922,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                     <span>Messages</span>
                                                                     <div className="ml-auto badge badge-warning">512
@@ -1930,7 +1930,7 @@ export default class NavsHGrid extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="#">
+                                                                <NavLink href="/#">
                                                                     <i className="nav-link-icon pe-7s-box2"> </i>
                                                                     <span>Logs</span>
                                                                 </NavLink>

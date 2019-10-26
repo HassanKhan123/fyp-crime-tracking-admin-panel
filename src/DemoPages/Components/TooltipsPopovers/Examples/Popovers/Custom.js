@@ -46,13 +46,13 @@ class PopoverItem extends React.Component {
                         Activity
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">
+                        <NavLink href="/#">
                             Chat
                             <div className="ml-auto badge badge-pill badge-info">8</div>
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Recover Password</NavLink>
+                        <NavLink href="/#">Recover Password</NavLink>
                     </NavItem>
                     <NavItem className="nav-item-divider"/>
                     <NavItem className="nav-item-btn">

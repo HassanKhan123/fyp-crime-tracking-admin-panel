@@ -76,12 +76,12 @@ export default class Register extends Component {
                                         </Row>
                                         <FormGroup className="mt-3" check>
                                             <Input type="checkbox" name="check" id="exampleCheck"/>
-                                            <Label for="exampleCheck" check>Accept our <a href="#">Terms and Conditions</a>.</Label>
+                                            <Label for="exampleCheck" check>Accept our <a href="/#">Terms and Conditions</a>.</Label>
                                         </FormGroup>
                                         <div className="mt-4 d-flex align-items-center">
                                             <h5 className="mb-0">
                                                 Already have an account?{' '}
-                                                <a href="#" className="text-primary">Sign in</a>
+                                                <a href="/#" className="text-primary">Sign in</a>
                                             </h5>
                                             <div className="ml-auto">
                                                 <Button color="primary" className="btn-wide btn-pill btn-shadow btn-hover-shine" size="lg">Create Account</Button>

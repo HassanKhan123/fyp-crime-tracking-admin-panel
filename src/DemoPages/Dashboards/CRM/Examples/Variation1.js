@@ -316,7 +316,7 @@ export default class CRMDashboard1 extends Component {
                                     </div>
                                     <Nav>
                                         <NavItem>
-                                            <NavLink href="#"
+                                            <NavLink href="/#"
                                                      className={classnames({active: this.state.activeTab2 === '222'})}
                                                      onClick={() => {
                                                          this.toggle2('222');
@@ -326,7 +326,7 @@ export default class CRMDashboard1 extends Component {
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink href="#"
+                                            <NavLink href="/#"
                                                      className={classnames({active: this.state.activeTab2 === '111'})}
                                                      onClick={() => {
                                                          this.toggle2('111');
@@ -1379,14 +1379,14 @@ export default class CRMDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">Recover
+                                                            <NavLink href="/#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>
@@ -1469,14 +1469,14 @@ export default class CRMDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">Recover
+                                                            <NavLink href="/#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>
@@ -1559,14 +1559,14 @@ export default class CRMDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">Recover
+                                                            <NavLink href="/#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>
@@ -1650,14 +1650,14 @@ export default class CRMDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">
+                                                            <NavLink href="/#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="#">Recover
+                                                            <NavLink href="/#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>

@@ -26,35 +26,35 @@ const BasicPagination = (props) => {
                                     <CardTitle>Basic</CardTitle>
                                     <Pagination aria-label="Page navigation example">
                                         <PaginationItem>
-                                            <PaginationLink previous href="#"/>
+                                            <PaginationLink previous href="/#"/>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 1
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem active>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 2
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 3
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 4
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 5
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink next href="#"/>
+                                            <PaginationLink next href="/#"/>
                                         </PaginationItem>
                                     </Pagination>
                                 </CardBody>
@@ -64,35 +64,35 @@ const BasicPagination = (props) => {
                                     <CardTitle>Rounded</CardTitle>
                                     <Pagination className="pagination-rounded" aria-label="Page navigation example">
                                         <PaginationItem>
-                                            <PaginationLink previous href="#"/>
+                                            <PaginationLink previous href="/#"/>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 1
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem active>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 2
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 3
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 4
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 5
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink next href="#"/>
+                                            <PaginationLink next href="/#"/>
                                         </PaginationItem>
                                     </Pagination>
                                 </CardBody>
@@ -104,83 +104,83 @@ const BasicPagination = (props) => {
                                     <CardTitle>Sizing</CardTitle>
                                     <Pagination size="sm" aria-label="Page navigation example">
                                         <PaginationItem>
-                                            <PaginationLink previous href="#"/>
+                                            <PaginationLink previous href="/#"/>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 1
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 2
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 3
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 4
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 5
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink next href="#"/>
+                                            <PaginationLink next href="/#"/>
                                         </PaginationItem>
                                     </Pagination>
                                     <div className="divider"/>
                                     <Pagination aria-label="Page navigation example">
                                         <PaginationItem>
-                                            <PaginationLink previous href="#"/>
+                                            <PaginationLink previous href="/#"/>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 1
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 2
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 3
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink next href="#"/>
+                                            <PaginationLink next href="/#"/>
                                         </PaginationItem>
                                     </Pagination>
                                     <div className="divider"/>
                                     <Pagination size="lg" aria-label="Page navigation example">
                                         <PaginationItem>
-                                            <PaginationLink previous href="#"/>
+                                            <PaginationLink previous href="/#"/>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 1
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 2
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink href="#">
+                                            <PaginationLink href="/#">
                                                 3
                                             </PaginationLink>
                                         </PaginationItem>
                                         <PaginationItem>
-                                            <PaginationLink next href="#"/>
+                                            <PaginationLink next href="/#"/>
                                         </PaginationItem>
                                     </Pagination>
                                 </CardBody>
