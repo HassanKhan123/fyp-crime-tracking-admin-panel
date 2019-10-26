@@ -2,9 +2,6 @@ import React, {Fragment} from 'react';
 import {Button, UncontrolledPopover, PopoverHeader, PopoverBody} from 'reactstrap';
 
 class PopoverItem extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

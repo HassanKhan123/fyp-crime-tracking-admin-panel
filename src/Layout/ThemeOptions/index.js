@@ -684,70 +684,70 @@ class ThemeOptions extends Component {
                                         <div className="divider"/>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar6})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar6)}>
                                                 <img alt=" " src={sideBar6}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar7})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar7)}>
                                                 <img alt=" " src={sideBar7}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar8})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar8)}>
                                                 <img alt=" " src={sideBar8}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar9})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar9)}>
                                                 <img alt=" " src={sideBar9}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar10})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar10)}>
                                                 <img alt=" " src={sideBar10}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar1})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar1)}>
                                                 <img alt=" " src={sideBar1}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar2})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar2)}>
                                                 <img alt=" " src={sideBar2}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar3})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar3)}>
                                                 <img alt=" " src={sideBar3}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar4})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar4)}>
                                                 <img alt=" " src={sideBar4}/>
                                             </a>
                                         </div>
                                         <div
                                             className={cx("swatch-holder swatch-holder-img", {active: backgroundImage === sideBar5})}>
-                                            <a className="img-holder switch-trigger"
+                                            <a className="img-holder switch-trigger" href="/#"
                                                onClick={() => setBackgroundImage(sideBar5)}>
                                                 <img alt=" " src={sideBar5}/>
                                             </a>

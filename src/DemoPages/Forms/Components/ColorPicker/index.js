@@ -10,7 +10,6 @@ import PageTitle from '../../../../Layout/AppMain/PageTitle';
 
 import {
     SketchPicker,
-    SliderPicker,
     CompactPicker,
     SwatchesPicker,
     TwitterPicker,
@@ -18,7 +17,6 @@ import {
     HuePicker,
     AlphaPicker,
     BlockPicker,
-    ChromePicker
 } from 'react-color';
 
 export default class FormColorPicker extends React.Component {

@@ -1,9 +1,9 @@
-import React, {Component, Fragment} from 'react';
+import React, { Component, Fragment } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 import {
     Row, Col,
-    Card, CardImg, CardText, CardBody, CardImgOverlay,
+    Card, CardImg, CardBody, CardImgOverlay,
     CardTitle, CardHeader, CardFooter, Container
 } from 'reactstrap';
 
@@ -65,8 +65,8 @@ class CardsColors extends Component {
                                 </Card>
                                 <Card className="mb-3" inverse>
                                     <CardImg width="100%"
-                                             src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666"
-                                             alt="Card image cap"/>
+                                        src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666"
+                                        alt="Card image cap" />
                                     <CardImgOverlay>
                                         <CardTitle className="text-white">Card Title</CardTitle>
                                         This is a wider card with supporting text below as a natural lead-in to
@@ -130,7 +130,7 @@ class CardsColors extends Component {
                                     <CardFooter>Footer</CardFooter>
                                 </Card>
                                 <Card className="mb-3" body inverse
-                                      style={{backgroundColor: '#333', borderColor: '#333'}}>
+                                    style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                     <CardTitle className="text-white">Special Title Treatment</CardTitle>
                                     With supporting text below as a natural lead-in to additional
                                     content.
