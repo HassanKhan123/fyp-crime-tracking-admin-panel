@@ -10,7 +10,6 @@ import {
 // Examples
 import Area from './Area';
 import Bar from './Bar';
-import Column from './Column';
 import Line from './Line';
 
 export default class ApexChartsSparklines extends Component {
