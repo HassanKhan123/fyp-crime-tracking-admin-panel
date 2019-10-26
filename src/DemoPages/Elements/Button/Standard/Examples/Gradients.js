@@ -6,8 +6,6 @@ import LaddaButton, {
     EXPAND_RIGHT,
     EXPAND_UP,
     EXPAND_DOWN,
-    CONTRACT,
-    CONTRACT_OVERLAY,
     SLIDE_LEFT,
     SLIDE_RIGHT,
     SLIDE_UP,
