@@ -27,8 +27,6 @@ import {
     faArrowRight,
     faEllipsisH,
     faAngleDown,
-    faDotCircle
-
 } from '@fortawesome/free-solid-svg-icons';
 
 import CountUp from 'react-countup';

@@ -23,8 +23,6 @@ import {
 
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
-import PageTitle from '../../../../Layout/AppMain/PageTitle';
-
 class ScrollableElements extends Component {
 
     render() {

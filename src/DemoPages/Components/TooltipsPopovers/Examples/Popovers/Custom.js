@@ -12,9 +12,6 @@ import {
 import bg1 from '../../../../../assets/utils/images/dropdown-header/abstract1.jpg';
 
 class PopoverItem extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
