@@ -29,9 +29,6 @@ const data55 = [
 ];
 
 export default class IncomeReport extends Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
             <Fragment>

@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import {
     Row, Col,
     Card, CardBody,

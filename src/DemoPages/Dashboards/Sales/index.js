@@ -34,9 +34,6 @@ function getTabs() {
 }
 
 export default class SalesDashboard extends Component {
-    constructor() {
-        super();
-    }
 
     render() {
         return (

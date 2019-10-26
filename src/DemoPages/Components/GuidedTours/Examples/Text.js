@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fontFamily, themeColors } from './settings'
+import { themeColors } from './settings'
 
 export default styled.p`
   margin: 0;

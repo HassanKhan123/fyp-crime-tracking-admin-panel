@@ -10,8 +10,6 @@ import {
 // Examples
 import Area from './Area';
 import Bar from './Bar';
-import Column from './Column';
-import Line from './Line';
 import Donut from './Donut';
 import RadialBar from './RadialBar';
 

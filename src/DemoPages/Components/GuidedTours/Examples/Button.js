@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fontFamily, headingSizes, themeColors } from './settings'
+import { headingSizes, themeColors } from './settings'
 
 const styles = `
     border: 0;

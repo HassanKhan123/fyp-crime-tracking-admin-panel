@@ -33,9 +33,9 @@ export default class FaqSection extends Component {
         };
     }
 
-    toggle() {
-        this.setState({collapse: !this.state.collapse});
-    }
+    // toggle() {
+    //     this.setState({collapse: !this.state.collapse});
+    // }
 
     toggleAccordion(tab) {
 

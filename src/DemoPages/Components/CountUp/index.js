@@ -60,7 +60,7 @@ class CountUpExample extends Component {
                                         <CountUp start={56} end={268} duration="15" delay={3}>
                                             {({countUpRef, start}) => (
                                                 <div className="text-center">
-                                                    <h3 ref={countUpRef}/>
+                                                    {/* <h3 ref={countUpRef}/> */}
                                                     <div className="divider"/>
                                                     <Button color="primary" onClick={start}>Start</Button>
                                                 </div>
@@ -86,7 +86,7 @@ class CountUpExample extends Component {
                                     >
                                         {({countUpRef, start}) => (
                                             <div className="text-center">
-                                                <h3 ref={countUpRef}/>
+                                                {/* <h3 ref={countUpRef}/> */}
                                                 <div className="divider"/>
                                                 <Button color="primary" onClick={start}>Start</Button>
                                             </div>

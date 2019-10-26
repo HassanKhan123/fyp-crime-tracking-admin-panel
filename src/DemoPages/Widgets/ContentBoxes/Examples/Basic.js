@@ -168,7 +168,7 @@ function boxMullerRandom() {
 
     return (function () {
 
-        if (phase = !phase) {
+        if (phase === !phase) {
             do {
                 x1 = 2.0 * Math.random() - 1.0;
                 x2 = 2.0 * Math.random() - 1.0;

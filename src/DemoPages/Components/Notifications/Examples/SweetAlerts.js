@@ -137,7 +137,7 @@ export default class SweetAlerts extends Component {
                                         confirmButtonColor=""
                                         html
                                         text={renderToStaticMarkup(<div>You can use <strong>bold text</strong>,
-                                            <a>links</a>
+                                            <a href="/#">links</a>
                                             and other HTML tags</div>)}
                                         onConfirm={() => this.setState({message4: false})}/>
                                 </CardBody>

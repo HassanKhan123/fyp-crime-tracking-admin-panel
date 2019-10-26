@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
+import React from 'react';
+import { connect } from 'react-redux';
 import cx from 'classnames';
 
 import LaddaButton, {
@@ -21,12 +21,9 @@ import {
 
 } from '@fortawesome/free-solid-svg-icons';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class PageTitleAlt2 extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     state = {
         expZoomIn: false,
@@ -62,29 +59,29 @@ class PageTitleAlt2 extends React.Component {
                 <div className="page-title-wrapper">
                     <div className="page-title-heading">
                         <div
-                            className={cx("page-title-icon rounded-circle", {'d-none': !enablePageTitleIcon})}>
-                            <i className={icon}/>
+                            className={cx("page-title-icon rounded-circle", { 'd-none': !enablePageTitleIcon })}>
+                            <i className={icon} />
                         </div>
                         <div>
                             {heading}
                             <div
-                                className={cx("page-title-subheading", {'d-none': !enablePageTitleSubheading})}>
+                                className={cx("page-title-subheading", { 'd-none': !enablePageTitleSubheading })}>
                                 {subheading}
                             </div>
                         </div>
                     </div>
                     <div className="page-title-actions">
                         <Button className="btn-pill btn-shadow mr-3" onClick={this.notify22} color="success"
-                                id="Tooltip-123">
-                            <FontAwesomeIcon icon={faBatteryThreeQuarters}/>
+                            id="Tooltip-123">
+                            <FontAwesomeIcon icon={faBatteryThreeQuarters} />
                         </Button>
                         <UncontrolledTooltip placement="left" target={'Tooltip-123'}>
                             A notification example!
                         </UncontrolledTooltip>
                         <LaddaButton className="btn btn-shadow btn-pill btn-wide btn-focus"
-                                     loading={this.state.expZoomIn}
-                                     onClick={() => this.toggle('expZoomIn')}
-                                     data-style={ZOOM_IN}
+                            loading={this.state.expZoomIn}
+                            onClick={() => this.toggle('expZoomIn')}
+                            data-style={ZOOM_IN}
                         >
                             Zoom In
                         </LaddaButton>

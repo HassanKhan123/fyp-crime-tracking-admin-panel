@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, { Fragment } from 'react';
 
 import PageTitle from '../../../Layout/AppMain/PageTitle';
 
@@ -16,7 +16,7 @@ export default class AccordionExample extends React.Component {
                     subheading="Accordions represent collapsable component with extended functionality."
                     icon="pe-7s-diamond icon-gradient bg-warm-flame"
                 />
-                <AccordionsBasicExample/>
+                <AccordionsBasicExample />
             </Fragment>
         );
     }

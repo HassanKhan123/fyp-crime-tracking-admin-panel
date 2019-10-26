@@ -11,9 +11,9 @@ import NumberPicker from 'react-widgets/lib/NumberPicker';
 
 simpleNumberLocalizer()
 
-function myFormat(num) {
-    return num + '$';
-}
+// function myFormat(num) {
+//     return num + '$';
+// }
 
 export default class FormNumberPicker extends React.Component {
 

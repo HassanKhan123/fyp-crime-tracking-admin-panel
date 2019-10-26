@@ -36,9 +36,6 @@ function getTabs() {
 }
 
 export default class TabbedContent extends Component {
-    constructor() {
-        super();
-    }
 
     render() {
         return (

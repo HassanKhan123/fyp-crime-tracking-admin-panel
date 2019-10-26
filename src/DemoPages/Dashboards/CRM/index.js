@@ -10,7 +10,6 @@ import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 // Examples
 import CRMDashboard1 from './Examples/Variation1';
 import CRMDashboard2 from './Examples/Variation2';
-import PageTitle from "../Commerce";
 
 
 export default class CRMDashboard extends Component {

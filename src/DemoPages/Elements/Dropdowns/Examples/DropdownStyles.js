@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, { Fragment } from 'react';
 import {
     Button,
     Dropdown,
@@ -9,7 +9,7 @@ import {
     Container
 } from 'reactstrap';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import {Animated} from "react-animated-css";
+// import {Animated} from "react-animated-css";
 
 import {
     Row, Col,
@@ -36,11 +36,11 @@ export default class DropdownStyles extends React.Component {
     }
 
     onMouseEnter() {
-        this.setState({dropdownOpen: true});
+        this.setState({ dropdownOpen: true });
     }
 
     onMouseLeave() {
-        this.setState({dropdownOpen: false});
+        this.setState({ dropdownOpen: false });
     }
 
     render() {
@@ -68,13 +68,13 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <Dropdown className="d-inline-block" onMouseOver={this.onMouseEnter}
-                                                  onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen}
-                                                  toggle={this.toggle}>
+                                            onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen}
+                                            toggle={this.toggle}>
                                             <DropdownToggle caret color="primary" className="mb-2 mr-2">
                                                 Hover Open
                                             </DropdownToggle>
@@ -82,7 +82,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem disabled>Action</DropdownItem>
                                                 <DropdownItem>Another Action</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Another Action</DropdownItem>
                                             </DropdownMenu>
                                         </Dropdown>
@@ -95,7 +95,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -108,7 +108,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -121,7 +121,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -134,7 +134,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -156,7 +156,7 @@ export default class DropdownStyles extends React.Component {
                                                     <i className="dropdown-icon lnr-book"> </i>
                                                     <span>Actions</span>
                                                 </DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>
                                                     <i className="dropdown-icon lnr-picture"> </i>
                                                     <span>Dividers</span>
@@ -172,7 +172,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -194,7 +194,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -207,7 +207,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -220,7 +220,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -233,7 +233,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -246,7 +246,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -259,7 +259,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -272,7 +272,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -285,7 +285,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -298,7 +298,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -311,7 +311,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -324,7 +324,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -335,121 +335,121 @@ export default class DropdownStyles extends React.Component {
                                         <CardTitle>Split Dropdowns</CardTitle>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="primary">Primary</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="primary"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="primary" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="secondary">Secondary</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="secondary"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="secondary" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="success">Success</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="success"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="success" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="info">Info</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="info"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="info" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="warning">Warning</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="warning"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="warning" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="danger">Danger</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="danger"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="danger" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="focus">Focus</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="focus"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="focus" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="alternate">Alt</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="alternate"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="alternate" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="light">Light</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="light"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="light" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button color="dark">Dark</Button>
-                                            <DropdownToggle className="dropdown-toggle-split" caret color="dark"/>
+                                            <DropdownToggle className="dropdown-toggle-split" caret color="dark" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -461,130 +461,130 @@ export default class DropdownStyles extends React.Component {
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="primary">Primary</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="primary"/>
+                                                color="primary" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="secondary">Secondary</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="secondary"/>
+                                                color="secondary" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="success">Success</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="success"/>
+                                                color="success" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="info">Info</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="info"/>
+                                                color="info" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="warning">Warning</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="warning"/>
+                                                color="warning" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="danger">Danger</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="danger"/>
+                                                color="danger" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="focus">Focus</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="focus"/>
+                                                color="focus" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="alternate">Alt</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="alternate"/>
+                                                color="alternate" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="light">Light</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="light"/>
+                                                color="light" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
                                         <UncontrolledButtonDropdown className="mb-2 mr-2">
                                             <Button outline color="dark">Dark</Button>
                                             <DropdownToggle outline className="dropdown-toggle-split" caret
-                                                            color="dark"/>
+                                                color="dark" />
                                             <DropdownMenu>
                                                 <DropdownItem>Menus</DropdownItem>
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -597,45 +597,45 @@ export default class DropdownStyles extends React.Component {
                                             <UncontrolledButtonDropdown direction="left" className="mb-2 mr-2">
                                                 <Button className="btn-wide" color="primary">Dropleft</Button>
                                                 <DropdownToggle className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                             <UncontrolledButtonDropdown direction="up" className="mb-2 mr-2">
                                                 <Button className="btn-wide" color="primary">Dropup</Button>
                                                 <DropdownToggle className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                             <UncontrolledButtonDropdown direction="right" className="mb-2 mr-2">
                                                 <Button className="btn-wide" color="primary">Dropright</Button>
                                                 <DropdownToggle className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                         </div>
 
-                                        <div className="divider"/>
+                                        <div className="divider" />
 
                                         <div className="text-center">
                                             <UncontrolledButtonDropdown direction="left">
@@ -647,7 +647,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
@@ -660,7 +660,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
@@ -673,7 +673,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
@@ -694,7 +694,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -707,7 +707,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -720,7 +720,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -733,7 +733,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -746,7 +746,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -759,7 +759,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -772,7 +772,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -785,7 +785,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -798,7 +798,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -811,7 +811,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -824,7 +824,7 @@ export default class DropdownStyles extends React.Component {
                                                 <DropdownItem>Settings</DropdownItem>
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>Actions</DropdownItem>
-                                                <DropdownItem divider/>
+                                                <DropdownItem divider />
                                                 <DropdownItem>Dividers</DropdownItem>
                                             </DropdownMenu>
                                         </UncontrolledButtonDropdown>
@@ -837,45 +837,45 @@ export default class DropdownStyles extends React.Component {
                                             <UncontrolledButtonDropdown className="mb-2 mr-2">
                                                 <Button size="lg" color="primary">Large</Button>
                                                 <DropdownToggle size="lg" className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                             <UncontrolledButtonDropdown className="mb-2 mr-2">
                                                 <Button color="primary">Normal</Button>
                                                 <DropdownToggle className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                             <UncontrolledButtonDropdown className="mb-2 mr-2">
                                                 <Button size="sm" color="primary">Small</Button>
                                                 <DropdownToggle size="sm" className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                         </div>
 
-                                        <div className="divider"/>
+                                        <div className="divider" />
 
                                         <div className="text-center">
                                             <UncontrolledButtonDropdown>
@@ -887,7 +887,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
@@ -900,7 +900,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
@@ -913,7 +913,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
@@ -927,50 +927,50 @@ export default class DropdownStyles extends React.Component {
                                             <UncontrolledButtonDropdown className="mb-2 mr-2">
                                                 <Button size="lg" className="btn-wide" color="primary">Large</Button>
                                                 <DropdownToggle size="lg" className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                             <UncontrolledButtonDropdown className="mb-2 mr-2">
                                                 <Button className="btn-wide" color="primary">Normal</Button>
                                                 <DropdownToggle className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                             <UncontrolledButtonDropdown className="mb-2 mr-2">
                                                 <Button className="btn-wide" size="sm" color="primary">Small</Button>
                                                 <DropdownToggle size="sm" className="dropdown-toggle-split" caret
-                                                                color="primary"/>
+                                                    color="primary" />
                                                 <DropdownMenu>
                                                     <DropdownItem>Menus</DropdownItem>
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                         </div>
 
-                                        <div className="divider"/>
+                                        <div className="divider" />
 
                                         <div className="text-center">
                                             <UncontrolledButtonDropdown>
                                                 <DropdownToggle className="btn-wide mb-2 mr-2" size="lg" caret
-                                                                color="primary">
+                                                    color="primary">
                                                     Large
                                                 </DropdownToggle>
                                                 <DropdownMenu>
@@ -978,7 +978,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
@@ -991,13 +991,13 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>
                                             <UncontrolledButtonDropdown>
                                                 <DropdownToggle className="btn-wide mb-2 mr-2" size="sm" caret
-                                                                color="primary">
+                                                    color="primary">
                                                     Small
                                                 </DropdownToggle>
                                                 <DropdownMenu>
@@ -1005,7 +1005,7 @@ export default class DropdownStyles extends React.Component {
                                                     <DropdownItem>Settings</DropdownItem>
                                                     <DropdownItem header>Header</DropdownItem>
                                                     <DropdownItem>Actions</DropdownItem>
-                                                    <DropdownItem divider/>
+                                                    <DropdownItem divider />
                                                     <DropdownItem>Dividers</DropdownItem>
                                                 </DropdownMenu>
                                             </UncontrolledButtonDropdown>

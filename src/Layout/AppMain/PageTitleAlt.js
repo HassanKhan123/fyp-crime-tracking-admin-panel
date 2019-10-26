@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {connect} from 'react-redux';
 import cx from 'classnames';
 
@@ -24,10 +24,7 @@ import {
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class PageTitle extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
+   
     state = {
         expZoomIn: false,
     }

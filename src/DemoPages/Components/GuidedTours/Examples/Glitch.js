@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components'
-import { fontFamily } from './settings'
 
 // from http://codepen.io/lbebber/pen/ypgql?editors=0100
 const steps = 20

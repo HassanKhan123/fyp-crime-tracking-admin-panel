@@ -22,7 +22,6 @@ import avatar5 from '../../../../assets/utils/images/avatars/5.jpg';
 import avatar6 from '../../../../assets/utils/images/avatars/8.jpg';
 
 import {
-    faAngleUp,
     faTrashAlt,
     faCheck,
     faEllipsisH,

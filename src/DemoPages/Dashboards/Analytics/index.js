@@ -10,7 +10,7 @@ import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 // Examples
 import AnalyticsDashboard1 from './Examples/Variation1';
 import AnalyticsDashboard2 from './Examples/Variation2';
-import PopoversExample from "../../Components/TooltipsPopovers";
+// import PopoversExample from "../../Components/TooltipsPopovers";
 
 export default class AnalyticsDashboard extends Component {
 

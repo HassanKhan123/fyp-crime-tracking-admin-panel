@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, { Component, Fragment } from 'react';
 import Tour from 'reactour'
 
 import Demo from './Examples/Demo'
@@ -170,7 +170,8 @@ const tourConfig = [
                         }}
                         onClick={() => goTo(1)}
                     >
-                        Please go back to 🚌
+                        Please go back to
+                         {/* 🚌 */}
                     </button>
                 </div>
             )
