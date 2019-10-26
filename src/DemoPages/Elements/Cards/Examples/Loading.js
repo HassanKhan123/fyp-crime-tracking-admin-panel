@@ -11,7 +11,7 @@ import {Loader, Types} from 'react-loaders';
 import {
     Row, Col, Form, FormGroup, Input,
     TabContent, TabPane, Nav, NavItem, NavLink,
-    Card, CardText, CardBody,
+    Card, CardBody,
     CardTitle, CardHeader, CardFooter,
     Button, ButtonGroup, UncontrolledButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Container
 } from 'reactstrap';

@@ -4,7 +4,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 import {
     Row, Col,
-    Card, CardImg, CardText, CardBody,
+    Card, CardImg, CardBody,
     CardTitle, CardSubtitle, CardLink, CardHeader, CardFooter
 } from 'reactstrap';
 

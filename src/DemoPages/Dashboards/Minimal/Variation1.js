@@ -932,12 +932,12 @@ export default class MinimalDashboard1 extends Component {
                                          alt=""/>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         Juan C. Cargill
                                     </a>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         Micro Electronics
                                     </a>
                                 </td>
@@ -984,12 +984,12 @@ export default class MinimalDashboard1 extends Component {
                                          alt=""/>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         Johnathan Phelan
                                     </a>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         Hatchworks
                                     </a>
                                 </td>
@@ -1036,12 +1036,12 @@ export default class MinimalDashboard1 extends Component {
                                          alt=""/>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         Darrell Lowe
                                     </a>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         Riddle Electronics
                                     </a>
                                 </td>
@@ -1088,12 +1088,12 @@ export default class MinimalDashboard1 extends Component {
                                          alt=""/>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         George T. Cottrell
                                     </a>
                                 </td>
                                 <td className="text-center">
-                                    <a href="javascript:void(0)">
+                                    <a href="/#">
                                         Pixelcloud
                                     </a>
                                 </td>
