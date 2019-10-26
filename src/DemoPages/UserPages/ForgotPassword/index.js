@@ -95,7 +95,7 @@ export default class ForgotPassword extends Component {
                                         </Row>
                                         <div className="mt-4 d-flex align-items-center">
                                             <h6 className="mb-0">
-                                                <a href="javascript:void(0);" className="text-primary">Sign in existing account</a>
+                                                <a href="#" className="text-primary">Sign in existing account</a>
                                             </h6>
                                             <div className="ml-auto">
                                                 <Button color="primary" size="lg">Recover Password</Button>

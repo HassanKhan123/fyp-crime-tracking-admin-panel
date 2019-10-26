@@ -84,7 +84,7 @@ export default class Login extends Component {
                                 </h4>
                                 <h6 className="mt-3">
                                     No account?{' '}
-                                    <a href="javascript:void(0);" className="text-primary">Sign up now</a>
+                                    <a href="#" className="text-primary">Sign up now</a>
                                 </h6>
                                 <Row className="divider"/>
                                 <div>
@@ -112,7 +112,7 @@ export default class Login extends Component {
                                         <Row className="divider"/>
                                         <div className="d-flex align-items-center">
                                             <div className="ml-auto">
-                                                <a href="javascript:void(0);" className="btn-lg btn btn-link">Recover
+                                                <a href="#" className="btn-lg btn btn-link">Recover
                                                     Password</a>{' '}{' '}
                                                 <Button color="primary" size="lg">Login to Dashboard</Button>
                                             </div>

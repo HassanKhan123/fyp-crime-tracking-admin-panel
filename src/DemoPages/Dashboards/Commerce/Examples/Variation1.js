@@ -343,14 +343,14 @@ export default class CommerceDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">Recover
+                                                            <NavLink href="#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>
@@ -433,14 +433,14 @@ export default class CommerceDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">Recover
+                                                            <NavLink href="#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>
@@ -523,14 +523,14 @@ export default class CommerceDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">Recover
+                                                            <NavLink href="#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>
@@ -614,14 +614,14 @@ export default class CommerceDashboard1 extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">8</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">Recover
+                                                            <NavLink href="#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>

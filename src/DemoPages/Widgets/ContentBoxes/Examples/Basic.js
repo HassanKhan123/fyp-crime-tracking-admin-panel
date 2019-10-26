@@ -977,7 +977,7 @@ class BasicExample extends Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 Chat
                                                                 <div
                                                                     className="ml-auto badge badge-pill badge-info">
@@ -986,7 +986,7 @@ class BasicExample extends Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">Recover
+                                                            <NavLink href="#">Recover
                                                                 Password</NavLink>
                                                         </NavItem>
                                                         <NavItem className="nav-item-divider"/>
@@ -1222,7 +1222,7 @@ class BasicExample extends Component {
                                         </div>
                                         <Nav>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab2 === '222'})}
                                                          onClick={() => {
                                                              this.toggle2('222');
@@ -1232,7 +1232,7 @@ class BasicExample extends Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab2 === '111'})}
                                                          onClick={() => {
                                                              this.toggle2('111');
@@ -1924,7 +1924,7 @@ class BasicExample extends Component {
                                                                     Activity
                                                                 </NavItem>
                                                                 <NavItem>
-                                                                    <NavLink href="javascript:void(0);">
+                                                                    <NavLink href="#">
                                                                         Chat
                                                                         <div
                                                                             className="ml-auto badge badge-pill badge-info">
@@ -1933,28 +1933,28 @@ class BasicExample extends Component {
                                                                     </NavLink>
                                                                 </NavItem>
                                                                 <NavItem>
-                                                                    <NavLink href="javascript:void(0);">Recover
+                                                                    <NavLink href="#">Recover
                                                                         Password</NavLink>
                                                                 </NavItem>
                                                                 <NavItem className="nav-item-header">
                                                                     My Account
                                                                 </NavItem>
                                                                 <NavItem>
-                                                                    <NavLink href="javascript:void(0);">
+                                                                    <NavLink href="#">
                                                                         Settings
                                                                         <div className="ml-auto badge badge-success">New
                                                                         </div>
                                                                     </NavLink>
                                                                 </NavItem>
                                                                 <NavItem>
-                                                                    <NavLink href="javascript:void(0);">
+                                                                    <NavLink href="#">
                                                                         Messages
                                                                         <div className="ml-auto badge badge-warning">512
                                                                         </div>
                                                                     </NavLink>
                                                                 </NavItem>
                                                                 <NavItem>
-                                                                    <NavLink href="javascript:void(0);">
+                                                                    <NavLink href="#">
                                                                         Logs
                                                                     </NavLink>
                                                                 </NavItem>

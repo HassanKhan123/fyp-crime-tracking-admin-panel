@@ -189,7 +189,7 @@ export default class MinimalDashboard2 extends Component {
                         <CardHeader className="tabs-lg-alternate">
                             <Nav justified>
                                 <NavItem>
-                                    <NavLink href="javascript:void(0);"
+                                    <NavLink href="#"
                                              className={classnames({active: this.state.activeTab === '1'})}
                                              onClick={() => {
                                                  this.toggle('1');
@@ -214,7 +214,7 @@ export default class MinimalDashboard2 extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="javascript:void(0);"
+                                    <NavLink href="#"
                                              className={classnames({active: this.state.activeTab === '2'})}
                                              onClick={() => {
                                                  this.toggle('2');
@@ -239,7 +239,7 @@ export default class MinimalDashboard2 extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="javascript:void(0);"
+                                    <NavLink href="#"
                                              className={classnames({active: this.state.activeTab === '3'})}
                                              onClick={() => {
                                                  this.toggle('3');
@@ -605,13 +605,13 @@ export default class MinimalDashboard2 extends Component {
                                                 Activity
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#">
                                                     Chat
                                                     <div className="ml-auto badge badge-pill badge-info">8</div>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                <NavLink href="#">Recover Password</NavLink>
                                             </NavItem>
                                             <NavItem className="nav-item-divider"/>
                                             <NavItem className="nav-item-btn text-center">

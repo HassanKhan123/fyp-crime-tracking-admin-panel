@@ -89,31 +89,31 @@ export default class DropdownGridMenus extends React.Component {
                                                         Activity
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Chat
                                                             <div className="ml-auto badge badge-pill badge-info">8</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                        <NavLink href="#">Recover Password</NavLink>
                                                     </NavItem>
                                                     <NavItem className="nav-item-header">
                                                         My Account
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Settings
                                                             <div className="ml-auto badge badge-success">New</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Messages
                                                             <div className="ml-auto badge badge-warning">512</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Logs
                                                         </NavLink>
                                                     </NavItem>
@@ -137,14 +137,14 @@ export default class DropdownGridMenus extends React.Component {
                                                         Activity
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             <i className="nav-link-icon pe-7s-chat"> </i>
                                                             <span>Chat</span>
                                                             <div className="ml-auto badge badge-pill badge-info">8</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             <i className="nav-link-icon pe-7s-wallet"> </i>
                                                             <span>Recover Password</span>
                                                         </NavLink>
@@ -153,21 +153,21 @@ export default class DropdownGridMenus extends React.Component {
                                                         My Account
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             <i className="nav-link-icon pe-7s-config"> </i>
                                                             <span>Settings</span>
                                                             <div className="ml-auto badge badge-success">New</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             <i className="nav-link-icon pe-7s-coffee"> </i>
                                                             <span>Messages</span>
                                                             <div className="ml-auto badge badge-warning">512</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             <i className="nav-link-icon pe-7s-box2"> </i>
                                                             <span>Logs</span>
                                                         </NavLink>
@@ -192,31 +192,31 @@ export default class DropdownGridMenus extends React.Component {
                                                         Activity
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Chat
                                                             <div className="ml-auto badge badge-pill badge-info">8</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                        <NavLink href="#">Recover Password</NavLink>
                                                     </NavItem>
                                                     <NavItem className="nav-item-header">
                                                         My Account
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Settings
                                                             <div className="ml-auto badge badge-success">New</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Messages
                                                             <div className="ml-auto badge badge-warning">512</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Logs
                                                         </NavLink>
                                                     </NavItem>
@@ -241,7 +241,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -249,7 +249,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -258,21 +258,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -329,7 +329,7 @@ export default class DropdownGridMenus extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Chat
                                                                     <div
                                                                         className="ml-auto badge badge-pill badge-info">8
@@ -337,28 +337,28 @@ export default class DropdownGridMenus extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">Recover
+                                                                <NavLink href="#">Recover
                                                                     Password</NavLink>
                                                             </NavItem>
                                                             <NavItem className="nav-item-header">
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Settings
                                                                     <div
                                                                         className="ml-auto badge badge-success">New</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Messages
                                                                     <div
                                                                         className="ml-auto badge badge-warning">512</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Logs
                                                                 </NavLink>
                                                             </NavItem>
@@ -411,7 +411,7 @@ export default class DropdownGridMenus extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Chat
                                                                     <div
                                                                         className="ml-auto badge badge-pill badge-info">8
@@ -419,40 +419,40 @@ export default class DropdownGridMenus extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">Recover
+                                                                <NavLink href="#">Recover
                                                                     Password</NavLink>
                                                             </NavItem>
                                                             <NavItem className="nav-item-header">
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Settings
                                                                     <div
                                                                         className="ml-auto badge badge-success">New</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Messages
                                                                     <div
                                                                         className="ml-auto badge badge-warning">512</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Logs
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Messages
                                                                     <div
                                                                         className="ml-auto badge badge-warning">512</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Logs
                                                                 </NavLink>
                                                             </NavItem>
@@ -504,7 +504,7 @@ export default class DropdownGridMenus extends React.Component {
                                                                 Activity
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Chat
                                                                     <div
                                                                         className="ml-auto badge badge-pill badge-info">8
@@ -512,34 +512,34 @@ export default class DropdownGridMenus extends React.Component {
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">Recover
+                                                                <NavLink href="#">Recover
                                                                     Password</NavLink>
                                                             </NavItem>
                                                             <NavItem className="nav-item-header">
                                                                 My Account
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Settings
                                                                     <div
                                                                         className="ml-auto badge badge-success">New</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Messages
                                                                     <div
                                                                         className="ml-auto badge badge-warning">512</div>
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Logs
                                                                 </NavLink>
                                                             </NavItem>
                                                             <NavItem className="nav-item-divider"/>
                                                             <NavItem>
-                                                                <NavLink href="javascript:void(0);">
+                                                                <NavLink href="#">
                                                                     Logs
                                                                 </NavLink>
                                                             </NavItem>
@@ -584,31 +584,31 @@ export default class DropdownGridMenus extends React.Component {
                                                         Activity
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Chat
                                                             <div className="ml-auto badge badge-pill badge-info">8</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                        <NavLink href="#">Recover Password</NavLink>
                                                     </NavItem>
                                                     <NavItem className="nav-item-header">
                                                         My Account
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Settings
                                                             <div className="ml-auto badge badge-success">New</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Messages
                                                             <div className="ml-auto badge badge-warning">512</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Logs
                                                         </NavLink>
                                                     </NavItem>
@@ -645,7 +645,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -653,7 +653,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -662,21 +662,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -714,7 +714,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -722,7 +722,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -731,21 +731,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -783,7 +783,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -791,7 +791,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -800,21 +800,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -852,7 +852,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -860,7 +860,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -869,21 +869,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -921,7 +921,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -929,7 +929,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -938,21 +938,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -990,7 +990,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -998,7 +998,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1007,21 +1007,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1059,7 +1059,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1067,7 +1067,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1076,21 +1076,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1128,7 +1128,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1136,7 +1136,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1145,21 +1145,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1197,7 +1197,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1205,7 +1205,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1214,21 +1214,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1266,7 +1266,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1274,7 +1274,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1283,21 +1283,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1343,31 +1343,31 @@ export default class DropdownGridMenus extends React.Component {
                                                         Activity
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Chat
                                                             <div className="ml-auto badge badge-pill badge-info">8</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                        <NavLink href="#">Recover Password</NavLink>
                                                     </NavItem>
                                                     <NavItem className="nav-item-header">
                                                         My Account
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Settings
                                                             <div className="ml-auto badge badge-success">New</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Messages
                                                             <div className="ml-auto badge badge-warning">512</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Logs
                                                         </NavLink>
                                                     </NavItem>
@@ -1406,7 +1406,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1414,7 +1414,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1423,21 +1423,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1477,7 +1477,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1485,7 +1485,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1494,21 +1494,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1548,7 +1548,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1556,7 +1556,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1565,21 +1565,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1619,7 +1619,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1627,7 +1627,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1636,21 +1636,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1690,7 +1690,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1698,7 +1698,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1707,21 +1707,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1761,7 +1761,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1769,7 +1769,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1778,21 +1778,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1832,7 +1832,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1840,7 +1840,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1849,21 +1849,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1903,7 +1903,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1911,7 +1911,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1920,21 +1920,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -1974,7 +1974,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -1982,7 +1982,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -1991,21 +1991,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -2045,7 +2045,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -2053,7 +2053,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -2062,21 +2062,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -2131,31 +2131,31 @@ export default class DropdownGridMenus extends React.Component {
                                                         Activity
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Chat
                                                             <div className="ml-auto badge badge-pill badge-info">8</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                        <NavLink href="#">Recover Password</NavLink>
                                                     </NavItem>
                                                     <NavItem className="nav-item-header">
                                                         My Account
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Settings
                                                             <div className="ml-auto badge badge-success">New</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Messages
                                                             <div className="ml-auto badge badge-warning">512</div>
                                                         </NavLink>
                                                     </NavItem>
                                                     <NavItem>
-                                                        <NavLink href="javascript:void(0);">
+                                                        <NavLink href="#">
                                                             Logs
                                                         </NavLink>
                                                     </NavItem>
@@ -2203,7 +2203,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -2211,7 +2211,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -2220,21 +2220,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>
@@ -2282,7 +2282,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             Activity
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-chat"> </i>
                                                                 <span>Chat</span>
                                                                 <div className="ml-auto badge badge-pill badge-info">8
@@ -2290,7 +2290,7 @@ export default class DropdownGridMenus extends React.Component {
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-wallet"> </i>
                                                                 <span>Recover Password</span>
                                                             </NavLink>
@@ -2299,21 +2299,21 @@ export default class DropdownGridMenus extends React.Component {
                                                             My Account
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-config"> </i>
                                                                 <span>Settings</span>
                                                                 <div className="ml-auto badge badge-success">New</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-coffee"> </i>
                                                                 <span>Messages</span>
                                                                 <div className="ml-auto badge badge-warning">512</div>
                                                             </NavLink>
                                                         </NavItem>
                                                         <NavItem>
-                                                            <NavLink href="javascript:void(0);">
+                                                            <NavLink href="#">
                                                                 <i className="nav-link-icon pe-7s-box2"> </i>
                                                                 <span>Logs</span>
                                                             </NavLink>

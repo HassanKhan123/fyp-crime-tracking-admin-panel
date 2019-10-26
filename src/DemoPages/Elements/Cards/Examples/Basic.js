@@ -115,8 +115,8 @@ class CardsBasic extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the
                                         card's content.
-                                        <CardLink href="javascript:void(0);">Card Link</CardLink>
-                                        <CardLink href="javascript:void(0);">Another Link</CardLink>
+                                        <CardLink href="#">Card Link</CardLink>
+                                        <CardLink href="#">Another Link</CardLink>
                                     </CardBody>
                                 </Card>
                                 <Card className="main-card mb-3">

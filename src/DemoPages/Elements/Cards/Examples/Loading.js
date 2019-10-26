@@ -444,7 +444,7 @@ class CardsBlockLoadingExample extends Component {
                                         <CardHeader>
                                             <Nav>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);"
+                                                    <NavLink href="#"
                                                              className={classnames({active: this.state.activeTab === '1'})}
                                                              onClick={() => {
                                                                  this.toggle('1');
@@ -454,7 +454,7 @@ class CardsBlockLoadingExample extends Component {
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);"
+                                                    <NavLink href="#"
                                                              className={classnames({active: this.state.activeTab === '2'})}
                                                              onClick={() => {
                                                                  this.toggle('2');
@@ -464,7 +464,7 @@ class CardsBlockLoadingExample extends Component {
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);"
+                                                    <NavLink href="#"
                                                              className={classnames({active: this.state.activeTab === '3'})}
                                                              onClick={() => {
                                                                  this.toggle('3');
@@ -522,7 +522,7 @@ class CardsBlockLoadingExample extends Component {
                                         <CardHeader>
                                             <Nav justified>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);"
+                                                    <NavLink href="#"
                                                              className={classnames({active: this.state.activeTab === '1'})}
                                                              onClick={() => {
                                                                  this.toggle('1');
@@ -532,7 +532,7 @@ class CardsBlockLoadingExample extends Component {
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);"
+                                                    <NavLink href="#"
                                                              className={classnames({active: this.state.activeTab === '2'})}
                                                              onClick={() => {
                                                                  this.toggle('2');
@@ -542,7 +542,7 @@ class CardsBlockLoadingExample extends Component {
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);"
+                                                    <NavLink href="#"
                                                              className={classnames({active: this.state.activeTab === '3'})}
                                                              onClick={() => {
                                                                  this.toggle('3');

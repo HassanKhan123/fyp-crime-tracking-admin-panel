@@ -47,7 +47,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement
@@ -100,7 +100,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement
@@ -153,7 +153,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement
@@ -217,7 +217,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement
@@ -270,7 +270,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement
@@ -323,7 +323,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement
@@ -388,7 +388,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement
@@ -427,7 +427,7 @@ class TimelineScrollable extends React.Component {
                                                         <h4 className="timeline-title">All Hands Meeting</h4>
                                                         <p>
                                                             Lorem ipsum dolor sic amet, today at <a
-                                                            href="javascript:void(0);">12:00 PM</a>
+                                                            href="#">12:00 PM</a>
                                                         </p>
                                                     </VerticalTimelineElement>
                                                     <VerticalTimelineElement

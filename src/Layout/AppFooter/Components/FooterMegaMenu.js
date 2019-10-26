@@ -45,7 +45,7 @@ class FooterMegaMenu extends React.Component {
             <Fragment>
                 <Nav className="header-megamenu">
                     <NavItem>
-                        <NavLink href="javascript:void(0);" onClick={this.toggle} id="PopoverMegaMenuFooter">Footer Menu
+                        <NavLink href="#" onClick={this.toggle} id="PopoverMegaMenuFooter">Footer Menu
                             <FontAwesomeIcon className="ml-2 opacity-8" icon={faAngleUp}/>
                         </NavLink>
                     </NavItem>
@@ -61,26 +61,26 @@ class FooterMegaMenu extends React.Component {
                                                 Overview
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#">
                                                     <i className="nav-link-icon lnr-inbox"> </i>
                                                     <span>Contacts</span>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#">
                                                     <i className="nav-link-icon lnr-book"> </i>
                                                     <span>Incidents</span>
                                                     <div className="ml-auto badge badge-pill badge-danger">5</div>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#">
                                                     <i className="nav-link-icon lnr-picture"> </i>
                                                     <span>Companies</span>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink disabled href="javascript:void(0);">
+                                                <NavLink disabled href="#">
                                                     <i className="nav-link-icon lnr-file-empty"> </i>
                                                     <span>Dashboards</span>
                                                 </NavLink>
@@ -93,21 +93,21 @@ class FooterMegaMenu extends React.Component {
                                                 Sales &amp; Marketing
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#">
                                                     Queues
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">Resource Groups</NavLink>
+                                                <NavLink href="#">Resource Groups</NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#">
                                                     Goal Metrics
                                                     <div className="ml-auto badge badge-warning">3</div>
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#">
                                                     Campaigns
                                                 </NavLink>
                                             </NavItem>
@@ -118,7 +118,7 @@ class FooterMegaMenu extends React.Component {
                         </div>
                     </Popover>
                     <NavItem>
-                        <NavLink href="javascript:void(0);" onClick={this.toggle2} id="PopoverGridFooter">
+                        <NavLink href="#" onClick={this.toggle2} id="PopoverGridFooter">
                             Grid Menu
                             <div className="badge badge-dark ml-0 ml-1">
                                 <small>NEW</small>

@@ -42,12 +42,12 @@ const LoginBoxed = ({match}) => (
                                 <div className="divider"/>
                                 <h6 className="mb-0">
                                     No account?{' '}
-                                    <a href="javascript:void(0);" className="text-primary">Sign up now</a>
+                                    <a href="#" className="text-primary">Sign up now</a>
                                 </h6>
                             </div>
                             <div className="modal-footer clearfix">
                                 <div className="float-left">
-                                    <a href="javascript:void(0);" className="btn-lg btn btn-link">Recover
+                                    <a href="#" className="btn-lg btn btn-link">Recover
                                         Password</a>
                                 </div>
                                 <div className="float-right">
