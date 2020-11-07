@@ -44,7 +44,7 @@ export const MainNav = [
             },
             {
                 label: 'Login Boxed',
-                to: '#/pages/login-boxed',
+                to: '#/pages/login',
             },
             {
                 label: 'Register',
@@ -52,7 +52,7 @@ export const MainNav = [
             },
             {
                 label: 'Register Boxed',
-                to: '#/pages/register-boxed',
+                to: '#/pages/register',
             },
             {
                 label: 'Forgot Password',
@@ -60,7 +60,7 @@ export const MainNav = [
             },
             {
                 label: 'Forgot Password Boxed',
-                to: '#/pages/forgot-password-boxed',
+                to: '#/pages/forgot-password',
             },
         ],
     },

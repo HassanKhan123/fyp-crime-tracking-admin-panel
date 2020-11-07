@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 import {
@@ -27,11 +27,11 @@ export default class NavsHorizontal extends React.Component {
     }
 
     onMouseEnter() {
-        this.setState({dropdownOpen: true});
+        this.setState({ dropdownOpen: true });
     }
 
     onMouseLeave() {
-        this.setState({dropdownOpen: false});
+        this.setState({ dropdownOpen: false });
     }
 
     render() {
@@ -56,7 +56,7 @@ export default class NavsHorizontal extends React.Component {
                                             <NavLink href="/#">Another Link</NavLink>
                                             <NavLink disabled href="/#">Disabled Link</NavLink>
                                         </Nav>
-                                        <div className="divider"/>
+                                        <div className="divider" />
                                         <Nav>
                                             <NavLink active href="/#">
                                                 <i className="nav-link-icon pe-7s-settings"> </i>
@@ -75,7 +75,7 @@ export default class NavsHorizontal extends React.Component {
                                                 <span>Disabled Link</span>
                                             </NavLink>
                                         </Nav>
-                                        <div className="divider"/>
+                                        <div className="divider" />
                                         <Nav justified>
                                             <NavItem>
                                                 <NavLink active href="/#">
@@ -113,7 +113,7 @@ export default class NavsHorizontal extends React.Component {
                                             <NavLink href="/#">Another Link</NavLink>
                                             <NavLink disabled href="/#">Disabled Link</NavLink>
                                         </Nav>
-                                        <div className="divider"/>
+                                        <div className="divider" />
                                         <Nav pills>
                                             <NavLink active href="/#">
                                                 <i className="nav-link-icon pe-7s-settings"> </i>
@@ -132,7 +132,7 @@ export default class NavsHorizontal extends React.Component {
                                                 <span>Disabled Link</span>
                                             </NavLink>
                                         </Nav>
-                                        <div className="divider"/>
+                                        <div className="divider" />
                                         <Nav pills justified>
                                             <NavItem>
                                                 <NavLink active href="/#">
