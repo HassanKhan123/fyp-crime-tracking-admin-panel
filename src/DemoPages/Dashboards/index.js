@@ -107,11 +107,13 @@ class Dashboards extends Component {
                             </CardHeader>
                             <CardBody>
                               <p>
-                                By{' '}
+                                Author:{' '}
                                 <span className='font-weight-bold'>
                                   {post.userName}
                                 </span>{' '}
-                                at{' '}
+                              </p>
+                              <p>
+                                Date:
                                 <span className='font-weight-bold'>
                                   {' '}
                                   {moment(post.createdAt.toDate()).format(
@@ -121,7 +123,7 @@ class Dashboards extends Component {
                               </p>
                               <p className='mb-3'>
                                 {post.ReportDesc ? (
-                                  post.ReportDesc.description
+                                  'Description: ' + post.ReportDesc.description
                                 ) : (
                                   <br />
                                 )}
@@ -129,6 +131,10 @@ class Dashboards extends Component {
                               <div style={{ height: '40vh', width: '100%' }}>
                                 <GoogleMapReact
                                   defaultCenter={{
+                                    lat: post.location.marker_lat,
+                                    lng: post.location.marker_long,
+                                  }}
+                                  center={{
                                     lat: post.location.marker_lat,
                                     lng: post.location.marker_long,
                                   }}
