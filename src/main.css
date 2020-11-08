@@ -1,8 +1,14 @@
-.loader {
+.loading {
   position: fixed;
   left: 50%;
   top: 50%;
   width: 100%;
   height: 100%;
   z-index: 9999;
+}
+.dropdown-menu-header {
+  margin-bottom: 0 !important;
+}
+.dropdown-menu {
+  padding-bottom: 0px !important;
 }

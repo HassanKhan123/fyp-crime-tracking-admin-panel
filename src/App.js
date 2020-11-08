@@ -12,7 +12,7 @@ const App = () => {
     <Suspense
       fallback={
         <div className='h-100 bg-plum-plate bg-animation'>
-          <div className='loader loader-wrapper d-flex h-100 justify-content-center align-items-center text-center'>
+          <div className='loading loader-wrapper d-flex h-100 justify-content-center align-items-center text-center'>
             <Loader type='ball-pulse' />
           </div>
         </div>

@@ -74,7 +74,7 @@ class LoginBoxed extends Component {
           onConfirm={() => this.setState({ showAlert: false })}
         />
         {pageLoading ? (
-          <div className='loader loader-wrapper h-100 d-flex justify-content-center align-items-center m-auto'>
+          <div className='loading loader-wrapper h-100 d-flex justify-content-center align-items-center m-auto'>
             <Loader type='ball-pulse' />
           </div>
         ) : (
@@ -117,16 +117,6 @@ class LoginBoxed extends Component {
                             </FormGroup>
                           </Col>
                         </Row>
-                        <FormGroup check>
-                          <Input
-                            type='checkbox'
-                            name='check'
-                            id='exampleCheck'
-                          />
-                          <Label for='exampleCheck' check>
-                            Keep me logged in
-                          </Label>
-                        </FormGroup>
                       </Form>
                     </div>
                     <div className='modal-footer clearfix'>
