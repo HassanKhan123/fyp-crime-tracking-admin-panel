@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import Loader from 'react-loaders';
 import moment from 'moment';
 import GoogleMapReact from 'google-map-react';
+import dotenv from 'dotenv';
 
 import {
   TabContent,
@@ -32,7 +33,7 @@ import AppHeader from '../../Layout/AppHeader/';
 // Theme Options
 import ThemeOptions from '../../Layout/ThemeOptions/';
 import fire from '../../config/firebaseConfig';
-
+dotenv.config();
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 const MarkerComponent = () => (
   <div>
@@ -133,8 +134,7 @@ class Dashboards extends Component {
                                   }}
                                   defaultZoom={zoom}
                                   bootstrapURLKeys={{
-                                    key:
-                                      'AIzaSyCSaYM3yMTr_62MGc8TGbisrFZqLREDB3E',
+                                    key: process.env.REACT_APP_GOOGLE_API_KEY,
                                   }}
                                 >
                                   <AnyReactComponent
