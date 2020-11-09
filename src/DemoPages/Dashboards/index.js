@@ -33,6 +33,8 @@ import AppHeader from '../../Layout/AppHeader/';
 // Theme Options
 import ThemeOptions from '../../Layout/ThemeOptions/';
 import fire from '../../config/firebaseConfig';
+import SideBar from '../../Layout/AppSidebar';
+
 dotenv.config();
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 const MarkerComponent = () => (
@@ -84,6 +86,7 @@ class Dashboards extends Component {
         <AppHeader />
 
         <div className='app-main'>
+          <SideBar />
           <div className='app-main__outer'>
             <div className='app-main__inner'>
               {loading ? (
@@ -100,8 +103,9 @@ class Dashboards extends Component {
                         <Col md='6' key={index}>
                           <Card className='main-card mb-3'>
                             <CardHeader>
-                              {post.location.regionName[0].street &&
-                                post.location.regionName[0].street}
+                              {post.location.regionName[0].street
+                                ? post.location.regionName[0].street
+                                : post.location.regionName[0].name}
                               , {post.location.regionName[0].city},{' '}
                               {post.location.regionName[0].region}
                             </CardHeader>
@@ -151,7 +155,24 @@ class Dashboards extends Component {
                                 </GoogleMapReact>
                               </div>
                             </CardBody>
-                            {/*    <CardFooter className='d-block text-right'></CardFooter> */}
+                            <CardFooter className='d-block'>
+                              {post.acknowledged &&
+                              post.acknowledged.acknowledgedBy ? (
+                                <div className='card-lower'>
+                                  <p className='acknowledged'>
+                                    Acknowledged By{' '}
+                                    {post.acknowledged.acknowledgedBy}
+                                  </p>
+                                  <Button color='primary'>View on map</Button>
+                                </div>
+                              ) : (
+                                <p className='not-acknowledged'>
+                                  Not Acknowledged
+                                </p>
+                              )}
+
+                              {/*    */}
+                            </CardFooter>
                           </Card>
                         </Col>
                       ))

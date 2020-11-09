@@ -89,6 +89,7 @@
     "react-loaders": "^3.0.1",
     "react-map-gl": "^4.1.2",
     "react-metismenu": "^1.4.0",
+    "react-metismenu-router-link": "^2.1.0",
     "react-motion-drawer": "^3.1.0",
     "react-multistep": "^3.6.4",
     "react-nouislider": "^2.0.1",
