@@ -51,7 +51,7 @@ class Officers extends Component {
     try {
       await fire
         .firestore()
-        .collection('Users')
+        .collection('Officers')
         .onSnapshot((snap) => {
           let usersArr = [];
           snap.forEach((doc) => {
@@ -83,7 +83,7 @@ class Officers extends Component {
                 </div>
               ) : (
                 <>
-                  <h1>Users</h1>
+                  <h1>Officers</h1>
                   <ListGroup users={users} />
                 </>
               )}

@@ -82,11 +82,8 @@ class ModalCustomCloseButton extends React.Component {
           </ModalBody>
           <ModalFooter>
             <Button color='link' onClick={this.props.toggle}>
-              Cancel
+              Close
             </Button>
-            <Button color='primary' onClick={this.props.toggle}>
-              Do Something
-            </Button>{' '}
           </ModalFooter>
         </Modal>
       </span>

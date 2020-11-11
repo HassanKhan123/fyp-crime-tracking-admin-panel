@@ -64,7 +64,7 @@ class ListGroupExampleAdvanced extends Component {
         >
           <Container fluid>
             <Row>
-              <Col lg='6'>
+              <Col lg='6' style={{ paddingLeft: 0 }}>
                 <Card className='main-card mb-3'>
                   <ListGroup flush>
                     {this.props.users.map((user) => (
