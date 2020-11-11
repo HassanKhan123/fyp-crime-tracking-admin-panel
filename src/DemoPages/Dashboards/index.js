@@ -34,6 +34,7 @@ import AppHeader from '../../Layout/AppHeader/';
 import ThemeOptions from '../../Layout/ThemeOptions/';
 import fire from '../../config/firebaseConfig';
 import SideBar from '../../Layout/AppSidebar';
+import Modal from '../Components/Modal/Examples/ModalCustomCloseButton';
 
 dotenv.config();
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -56,12 +57,14 @@ class Dashboards extends Component {
       posts: [],
 
       zoom: 15,
+      openModal: false,
+      officersLocation: [],
     };
   }
 
   async componentDidMount() {
     try {
-      const res = await fire
+      await fire
         .firestore()
         .collection('allAlerts')
         .onSnapshot((snap) => {
@@ -74,12 +77,36 @@ class Dashboards extends Component {
             loading: false,
           });
         });
+
+      await fire
+        .firestore()
+        .collection('Officers')
+        .onSnapshot((snap) => {
+          let arr = [];
+          snap.forEach((doc) => {
+            arr.push(doc.data());
+          });
+          this.setState({ officersLocation: arr });
+        });
     } catch (error) {
       console.log(error);
     }
   }
+  toggle = () => {
+    const { openModal } = this.state;
+    this.setState({
+      openModal: !openModal,
+    });
+  };
   render() {
-    const { loading, posts, center, zoom } = this.state;
+    const {
+      loading,
+      posts,
+      center,
+      zoom,
+      openModal,
+      officersLocation,
+    } = this.state;
     return (
       <Fragment>
         <ThemeOptions />
@@ -132,6 +159,20 @@ class Dashboards extends Component {
                                   <br />
                                 )}
                               </p>
+                              {openModal && (
+                                <Modal
+                                  openModal={openModal}
+                                  toggle={this.toggle}
+                                  lat={post.location.marker_lat}
+                                  long={post.location.marker_long}
+                                  title={post.acknowledged.acknowledgedByName}
+                                  officerInfo={officersLocation.filter(
+                                    (officer) =>
+                                      officer.UserId ===
+                                      post.acknowledged.acknowledgedById
+                                  )}
+                                />
+                              )}
                               <div style={{ height: '40vh', width: '100%' }}>
                                 <GoogleMapReact
                                   defaultCenter={{
@@ -165,7 +206,14 @@ class Dashboards extends Component {
                                       post.acknowledged.acknowledgedAt.toDate()
                                     ).format('MMMM Do, YYYY, h:mm A')}
                                   </p>
-                                  <Button color='primary'>View on map</Button>
+                                  <Button
+                                    color='primary'
+                                    onClick={() =>
+                                      this.setState({ openModal: true })
+                                    }
+                                  >
+                                    View on map
+                                  </Button>
                                 </div>
                               ) : (
                                 <p className='not-acknowledged'>
