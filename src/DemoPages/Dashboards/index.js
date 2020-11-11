@@ -156,12 +156,14 @@ class Dashboards extends Component {
                               </div>
                             </CardBody>
                             <CardFooter className='d-block'>
-                              {post.acknowledged &&
-                              post.acknowledged.acknowledgedBy ? (
+                              {post.acknowledged.acknowledgedStatus ? (
                                 <div className='card-lower'>
                                   <p className='acknowledged'>
                                     Acknowledged By{' '}
-                                    {post.acknowledged.acknowledgedBy}
+                                    {post.acknowledged.acknowledgedByName} at{' '}
+                                    {moment(
+                                      post.acknowledged.acknowledgedAt.toDate()
+                                    ).format('MMMM Do, YYYY, h:mm A')}
                                   </p>
                                   <Button color='primary'>View on map</Button>
                                 </div>
