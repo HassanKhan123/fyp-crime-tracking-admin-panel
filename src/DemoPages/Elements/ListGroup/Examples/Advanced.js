@@ -75,7 +75,7 @@ class ListGroupExampleAdvanced extends Component {
                               <img
                                 width={42}
                                 className='rounded-circle'
-                                src={avatar1}
+                                src={user.ProfileURL}
                                 alt=''
                               />
                             </div>
