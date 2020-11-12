@@ -35,6 +35,8 @@ import ThemeOptions from '../../Layout/ThemeOptions/';
 import fire from '../../config/firebaseConfig';
 import SideBar from '../../Layout/AppSidebar';
 import Modal from '../Components/Modal/Examples/ModalCustomCloseButton';
+import Chart from '../Charts/ChartJs/Examples/Circular/index';
+import Graph from '../Components/CountUp';
 
 dotenv.config();
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -232,6 +234,12 @@ class Dashboards extends Component {
                       </h3>
                     )}
                   </Row>
+
+                  <h1>Crime Record</h1>
+                  <div style={{ display: 'flex' }}>
+                    <Chart data={posts} />
+                    <Graph data={posts} />
+                  </div>
                 </>
               )}
             </div>
