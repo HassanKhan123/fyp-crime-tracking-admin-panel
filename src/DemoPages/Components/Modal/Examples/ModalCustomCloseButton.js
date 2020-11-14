@@ -34,7 +34,16 @@ class ModalCustomCloseButton extends React.Component {
 
   render() {
     const { zoom } = this.state;
-    console.log(this.props.officerInfo);
+    console.log(this.props)
+    let arr = this.props.officerInfo.find(
+      (officer) => {
+       
+      return officer.UserId ===
+        this.props.post
+      }
+       
+    )
+    console.log(arr)
     const closeBtn = (
       <button className='close' onClick={this.props.toggle}>
         &times;
@@ -73,8 +82,8 @@ class ModalCustomCloseButton extends React.Component {
                   text={<MarkerComponent />}
                 />
                 <AnyReactComponent
-                  lat={this.props.officerInfo[0].location.marker_lat}
-                  lng={this.props.officerInfo[0].location.marker_long}
+                  lat={arr.location.marker_lat}
+                  lng={arr.location.marker_long}
                   text={<MarkerComponent2 />}
                 />
               </GoogleMapReact>

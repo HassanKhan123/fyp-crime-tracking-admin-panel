@@ -161,18 +161,16 @@ class Dashboards extends Component {
                                   <br />
                                 )}
                               </p>
-                              {openModal && (
+                              {openModal && post.acknowledged.acknowledgedStatus && (
                                 <Modal
                                   openModal={openModal}
                                   toggle={this.toggle}
                                   lat={post.location.marker_lat}
                                   long={post.location.marker_long}
                                   title={post.acknowledged.acknowledgedByName}
-                                  officerInfo={officersLocation.filter(
-                                    (officer) =>
-                                      officer.UserId ===
-                                      post.acknowledged.acknowledgedById
-                                  )}
+                                  officerInfo={officersLocation}
+                                  post={post.acknowledged.acknowledgedById}
+                                  
                                 />
                               )}
                               <div style={{ height: '40vh', width: '100%' }}>
