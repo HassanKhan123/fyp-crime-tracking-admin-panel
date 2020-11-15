@@ -35,15 +35,15 @@ class ModalCustomCloseButton extends React.Component {
   render() {
     const { zoom } = this.state;
     console.log(this.props)
-    let arr = this.props.officerInfo.find(
-      (officer) => {
+    // let arr = this.props.officerInfo.find(
+    //   (officer) => {
        
-      return officer.UserId ===
-        this.props.post
-      }
+    //   return officer.UserId ===
+    //     this.props.post
+    //   }
        
-    )
-    console.log(arr)
+    // )
+    // console.log(arr)
     const closeBtn = (
       <button className='close' onClick={this.props.toggle}>
         &times;
@@ -58,18 +58,18 @@ class ModalCustomCloseButton extends React.Component {
           className={this.props.className}
         >
           <ModalHeader toggle={this.props.toggle} close={closeBtn}>
-            {this.props.title} is heading towards the crime spot
+            {this.props.post.officer.userName} is heading towards the crime spot
           </ModalHeader>
           <ModalBody>
             <div style={{ height: '50vh', width: '100%' }}>
               <GoogleMapReact
                 defaultCenter={{
-                  lat: this.props.lat,
-                  lng: this.props.long,
+                  lat: this.props.post.location.marker_lat,
+                  lng: this.props.post.location.marker_long,
                 }}
                 center={{
-                  lat: this.props.lat,
-                  lng: this.props.long,
+                  lat: this.props.post.location.marker_lat,
+                  lng: this.props.post.location.marker_long,
                 }}
                 defaultZoom={zoom}
                 bootstrapURLKeys={{
@@ -77,13 +77,13 @@ class ModalCustomCloseButton extends React.Component {
                 }}
               >
                 <AnyReactComponent
-                  lat={this.props.lat}
-                  lng={this.props.long}
+                  lat={this.props.post.location.marker_lat}
+                  lng={this.props.post.location.marker_long}
                   text={<MarkerComponent />}
                 />
                 <AnyReactComponent
-                  lat={arr.location.marker_lat}
-                  lng={arr.location.marker_long}
+                  lat={this.props.post.officer.location.marker_lat}
+                  lng={this.props.post.officer.location.marker_long}
                   text={<MarkerComponent2 />}
                 />
               </GoogleMapReact>

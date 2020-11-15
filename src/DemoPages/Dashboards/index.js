@@ -71,24 +71,37 @@ class Dashboards extends Component {
         .collection('allAlerts')
         .onSnapshot((snap) => {
           let postsArr = [];
-          snap.forEach((doc) => {
-            postsArr.push(doc.data());
-          });
-          this.setState({
-            posts: postsArr,
-            loading: false,
-          });
-        });
+          snap.forEach(async (doc) => {
+            console.log(doc.data());
+            if(doc.data().acknowledged.acknowledgedById){
+              await fire
+              .firestore()
+              .collection('Officers')
+              .doc(doc.data().acknowledged.acknowledgedById)
+              .onSnapshot((snap) => {
+                let arr = [];
 
-      await fire
-        .firestore()
-        .collection('Officers')
-        .onSnapshot((snap) => {
-          let arr = [];
-          snap.forEach((doc) => {
-            arr.push(doc.data());
+                arr.push(snap.data());
+
+                this.setState({ officerLocation: arr });
+                let obj = doc.data();
+                obj.officer = snap.data();
+                console.log(obj);
+                postsArr.push(obj);
+                this.setState({
+                  posts: postsArr,
+                  loading: false,
+                });
+              });
+            }else{
+              postsArr.push(doc.data());
+                this.setState({
+                  posts: postsArr,
+                  loading: false,
+                });
+            }
+            
           });
-          this.setState({ officersLocation: arr });
         });
     } catch (error) {
       console.log(error);
@@ -107,7 +120,7 @@ class Dashboards extends Component {
       center,
       zoom,
       openModal,
-      officersLocation,
+      officerLocation,
     } = this.state;
     return (
       <Fragment>
@@ -161,18 +174,20 @@ class Dashboards extends Component {
                                   <br />
                                 )}
                               </p>
-                              {openModal && post.acknowledged.acknowledgedStatus && (
-                                <Modal
-                                  openModal={openModal}
-                                  toggle={this.toggle}
-                                  lat={post.location.marker_lat}
-                                  long={post.location.marker_long}
-                                  title={post.acknowledged.acknowledgedByName}
-                                  officerInfo={officersLocation}
-                                  post={post.acknowledged.acknowledgedById}
-                                  
-                                />
-                              )}
+                              {openModal && this.state.index === index &&
+                                post.acknowledged.acknowledgedStatus && (
+                                  <Modal
+                                    openModal={openModal}
+                                    toggle={this.toggle}
+
+                                    post={post}
+                                    // lat={post.location.marker_lat}
+                                    // long={post.location.marker_long}
+                                    // title={post.acknowledged.acknowledgedByName}
+                                    // officerInfo={post.officer}
+                                    // post={post.acknowledged.acknowledgedById}
+                                  />
+                                )}
                               <div style={{ height: '40vh', width: '100%' }}>
                                 <GoogleMapReact
                                   defaultCenter={{
@@ -209,7 +224,7 @@ class Dashboards extends Component {
                                   <Button
                                     color='primary'
                                     onClick={() =>
-                                      this.setState({ openModal: true })
+                                      this.setState({ openModal: true,index })
                                     }
                                   >
                                     View on map
