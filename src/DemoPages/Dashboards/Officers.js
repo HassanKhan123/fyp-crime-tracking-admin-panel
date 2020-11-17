@@ -84,7 +84,7 @@ class Officers extends Component {
               ) : (
                 <>
                   <h1>Officers</h1>
-                  <ListGroup users={users} />
+                {users.length > 0 ? <ListGroup users={users} /> : <h6 className="text-center">No Officers</h6>}  
                 </>
               )}
             </div>

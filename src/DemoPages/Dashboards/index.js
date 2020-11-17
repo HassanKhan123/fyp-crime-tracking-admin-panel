@@ -70,41 +70,49 @@ class Dashboards extends Component {
         .firestore()
         .collection('allAlerts')
         .onSnapshot((snap) => {
-          let postsArr = [];
-          snap.forEach(async (doc) => {
-            console.log(doc.data());
-            if(doc.data().acknowledged.acknowledgedById){
-              await fire
-              .firestore()
-              .collection('Officers')
-              .doc(doc.data().acknowledged.acknowledgedById)
-              .onSnapshot((snap) => {
-                let arr = [];
+          if (!snap.empty) {
+            let postsArr = [];
+            snap.forEach(async (doc) => {
+              console.log(doc.data());
+              if (doc.data().acknowledged.acknowledgedById) {
+                await fire
+                  .firestore()
+                  .collection('Officers')
+                  .doc(doc.data().acknowledged.acknowledgedById)
+                  .onSnapshot((snap) => {
+                    let arr = [];
 
-                arr.push(snap.data());
+                    arr.push(snap.data());
 
-                this.setState({ officerLocation: arr });
-                let obj = doc.data();
-                obj.officer = snap.data();
-                console.log(obj);
-                postsArr.push(obj);
+                    this.setState({ officerLocation: arr });
+                    let obj = doc.data();
+                    obj.officer = snap.data();
+                    console.log(obj);
+                    postsArr.push(obj);
+                    this.setState({
+                      posts: postsArr,
+                      loading: false,
+                    });
+                  });
+              } else {
+                postsArr.push(doc.data());
                 this.setState({
                   posts: postsArr,
                   loading: false,
                 });
-              });
-            }else{
-              postsArr.push(doc.data());
-                this.setState({
-                  posts: postsArr,
-                  loading: false,
-                });
-            }
-            
-          });
+              }
+            });
+          } else {
+            this.setState({
+              loading: false,
+            });
+          }
         });
     } catch (error) {
       console.log(error);
+      this.setState({
+        loading: false,
+      });
     }
   }
   toggle = () => {
@@ -174,12 +182,12 @@ class Dashboards extends Component {
                                   <br />
                                 )}
                               </p>
-                              {openModal && this.state.index === index &&
+                              {openModal &&
+                                this.state.index === index &&
                                 post.acknowledged.acknowledgedStatus && (
                                   <Modal
                                     openModal={openModal}
                                     toggle={this.toggle}
-
                                     post={post}
                                     // lat={post.location.marker_lat}
                                     // long={post.location.marker_long}
@@ -224,7 +232,7 @@ class Dashboards extends Component {
                                   <Button
                                     color='primary'
                                     onClick={() =>
-                                      this.setState({ openModal: true,index })
+                                      this.setState({ openModal: true, index })
                                     }
                                   >
                                     View on map
